@@ -1,0 +1,26 @@
+{
+  "name": "validate",
+  "version": "0.1.0",
+  "homepage": "https://github.com/rcdigital/validate",
+  "description": "Simple javascript form validation without any dependencies.",
+  "authors": [
+    "Erick Belfort",
+    "Victor Ferraz"
+  ],
+  "main": "src/validate.js",
+  "keywords": [
+    "form validation",
+    "validate",
+    "required",
+    "inputs",
+    "form"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "tests",
+    "test"
+  ],
+  "dependencies": {}
+}

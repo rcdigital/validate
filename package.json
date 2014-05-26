@@ -1,0 +1,36 @@
+{
+  "name": "validate",
+  "title": "validate",
+  "description": "Simple javascript form validation without any dependencies.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/rcdigital/validate",
+  "author": {
+    "name": "Erick Belfort",
+    "email": "erick.belf@gmail.com",
+    "url": "https://github.com/erickbelfy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rcdigital/validate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rcdigital/validate/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/rcdigital/validate/blob/master/LICENSE"
+    }
+  ],
+  "main": "validate.min.js",
+  "engines": {
+    "node": ">=0.8"
+  },
+  "devDependencies": {
+    "grunt-cli": "~0.1.7",
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-bump": "~0.0.x"
+  },
+  "keywords": []
+}
