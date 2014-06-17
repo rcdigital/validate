@@ -2,7 +2,7 @@
   "name": "validate",
   "title": "validate",
   "description": "Simple javascript form validation without any dependencies.",
-  "version": "0.1.3",
+  "version": "0.1.6",
   "homepage": "https://github.com/rcdigital/validate",
   "author": {
     "name": "Erick Belfort",
@@ -22,7 +22,7 @@
       "url": "https://github.com/rcdigital/validate/blob/master/LICENSE"
     }
   ],
-  "main": "validate.min.js",
+  "main": "/dist/validate.min.js",
   "engines": {
     "node": ">=0.8"
   },

@@ -1,11 +1,10 @@
 {
   "name": "validate",
-  "version": "0.1.3",
+  "version": "0.1.6",
   "homepage": "https://github.com/rcdigital/validate",
-  "description": "Simple javascript form validation without any dependencies.",
+  "description": "Simple javascript form validation using jquery has dependency.",
   "authors": [
-    "Erick Belfort",
-    "Victor Ferraz"
+    "Erick Belfort"
   ],
   "main": "src/validate.js",
   "keywords": [
