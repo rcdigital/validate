@@ -1,6 +1,6 @@
 {
   "name": "validate",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "homepage": "https://github.com/rcdigital/validate",
   "description": "Simple javascript form validation using jquery has dependency.",
   "authors": [
