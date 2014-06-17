@@ -1,6 +1,6 @@
 #Validate 
 
-version: 0.1.6
+version: 0.1.7
 
 > Validate is a requireJS module to validate forms, using jquery has dependency.
 
