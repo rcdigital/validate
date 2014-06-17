@@ -25,7 +25,7 @@ First you need to define all required inputs using the class "required".
 
 Now, you need to create a validate instance.
 
-**Pure JavaScript**
+**Javascript**
 ```js
 
 define(['jquery', 'validate'], function ($, validate) {
@@ -38,6 +38,16 @@ define(['jquery', 'validate'], function ($, validate) {
     }
 });
 ```
+
+## How to contribute
+
+Install node dependencies, check package.json and bower.json
+
+`
+npm install && bower install
+`
+
+Use command `grunt release` to deploy your changes and create a new release tag if your PR was approved
 
 
 ## Contribuitors
