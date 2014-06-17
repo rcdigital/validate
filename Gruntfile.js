@@ -4,12 +4,12 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     uglify: {
       options: {
-        banner: '/*! data-metrics <%= pkg.version %> (<%= grunt.template.today("yyyy-mm-dd") %>) | Marlos Carmo - https://github.com/marloscarmo/data-metrics | Free to use under terms of MIT license */\n'
+        banner: '/*! validate <%= pkg.version %> (<%= grunt.template.today("yyyy-mm-dd") %>) | RC Digital - https://github.com/rcdigital/validate | Free to use under terms of MIT license */\n'
       },
 
       all: {
         files: {
-          'dist/data-metrics.min.js': 'src/data-metrics.js'
+          'dist/validate.min.js': 'src/validate.js'
         }
       }
     },

@@ -1,8 +1,8 @@
 #Validate 
 
-version: 0.1.0
+version: 0.1.3
 
-> Validate is a requireJS module to validate forms
+> Validate is a requireJS module to validate forms, using jquery has dependency.
 
 ### Bower 
 
@@ -28,9 +28,9 @@ Now, you need to create a validate instance.
 **Pure JavaScript**
 ```js
 
-define(['validate'], function (validate) {
+define(['jquery', 'validate'], function ($, validate) {
     var frm = $('#frm-validate');
-    var formvalidate = new validate.Validate(form);
+    var formvalidate = new validate.Validate(frm);
 
     //Check if form is valid
     if (formvalidate.isValid()) {
