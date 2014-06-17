@@ -47,7 +47,7 @@ Install node dependencies, check package.json and bower.json
 npm install && bower install
 `
 
-Use command `grunt release` to deploy your changes and create a new release tag if your PR was approved
+Use command `grunt release` to deploy your changes after your commit.
 
 
 ## Contribuitors
