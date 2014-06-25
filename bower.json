@@ -1,6 +1,6 @@
 {
   "name": "validation-required",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "homepage": "https://github.com/rcdigital/validate",
   "description": "Simple javascript form validation using jquery has dependency.",
   "authors": [
@@ -20,10 +20,19 @@
   },
   "license": "MIT",
   "ignore": [
+    "**/.*",
     "node_modules",
     "bower_components",
+    "test",
     "tests",
-    "test"
+    "tasks",
+    "component.json",
+    "composer.json",
+    "CONTRIBUTING.md",
+    "ender.js",
+    "Gruntfile.js",
+    "package.js",
+    "package.json"
   ],
   "dependencies": {
     "jquery": ">= 1.6.4"
