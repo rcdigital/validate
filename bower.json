@@ -1,12 +1,12 @@
 {
-  "name": "validate",
+  "name": "validation-required",
   "version": "0.1.8",
   "homepage": "https://github.com/rcdigital/validate",
   "description": "Simple javascript form validation using jquery has dependency.",
   "authors": [
     "Erick Belfort"
   ],
-  "main": "src/validate.js",
+  "main": "dist/validate.min.js",
   "keywords": [
     "form validation",
     "validate",
@@ -14,6 +14,10 @@
     "inputs",
     "form"
   ],
+  "repository": {
+        "type": "git",
+        "url": "git@github.com:rcdigital/validate.git"
+  },
   "license": "MIT",
   "ignore": [
     "node_modules",
@@ -21,5 +25,7 @@
     "tests",
     "test"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "jquery": ">= 1.6.4"
+  }
 }
