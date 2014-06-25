@@ -2,7 +2,7 @@
   "name": "validate",
   "title": "validate",
   "description": "Simple javascript form validation without any dependencies.",
-  "version": "0.1.8",
+  "version": "0.1.10",
   "homepage": "https://github.com/rcdigital/validate",
   "author": {
     "name": "Erick Belfort",
