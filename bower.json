@@ -1,6 +1,6 @@
 {
   "name": "validation-required",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "homepage": "https://github.com/rcdigital/validate",
   "description": "Simple javascript form validation using jquery has dependency.",
   "authors": [

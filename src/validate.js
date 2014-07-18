@@ -22,21 +22,6 @@ define(['jquery', 'exports'], function ($, exports) {
 
     };
 
-    Validate.prototype.isCheckedRadio = function(field) {
-
-        if ($(field).data('group-checkbox') === true) {
-            $(field).find('.tooltip-error').remove();
-            if ($(field).find('input:checked').length === 0 ){
-                $(field).prepend('<span class="tooltip-error">Esse campo é obrigatório.</span>');
-                return false;
-            } else {
-                return true;
-            }
-        }else{
-            return false;
-        }
-    };
-
     Validate.prototype.pushError = function (field) {
         this.errors.push(field);
     };
@@ -81,7 +66,7 @@ define(['jquery', 'exports'], function ($, exports) {
     Validate.prototype.isValid = function () {
         this.errors = [];
         for (var i = 0, l = this.fields.length; i < l; i++) {
-            if ( ( this.isNotEmpty(this.fields[i]) ) || ( this.isCheckedRadio(this.fields[i]) )  ){
+            if (this.isNotEmpty(this.fields[i]) ) {
 
                 this.hook(true, this.fields[i]);
 
@@ -92,13 +77,6 @@ define(['jquery', 'exports'], function ($, exports) {
                 if ($(this.fields[i]).data('validate') === 'email') {
                     this.hook(this.isEmail(this.fields[i]), this.fields[i]);
                 }
-
-                if( ( $('#sim').is(':checked') === true ) && ($('input[name=child_number]').val() ==='') ){
-                    this.hook( false,  $('input[name=child_number]') );
-                }else if( ( $('#sim').is(':checked') === false ) || ($('input[name=child_number]').val() !=='') ){
-                    this.hook( true,  $('input[name=child_number]') );
-                }
-
             } else {
                 this.hook(false, this.fields[i]);
             }
